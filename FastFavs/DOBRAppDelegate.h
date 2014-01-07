@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DDTTYLogger.h>
+
 
 @interface DOBRAppDelegate : UIResponder <UIApplicationDelegate>
 

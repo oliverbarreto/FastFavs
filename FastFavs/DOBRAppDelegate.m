@@ -10,9 +10,39 @@
 
 @implementation DOBRAppDelegate
 
+
+#pragma mark Utility Methods
+
+-(void)setupDevelopmentFramework
+{
+    // With these 2 lines of code we send logs to Xcode console (DDTTYLogger) and Testfligh servers (TestFlightLogger)
+
+/*
+    // TestFlight setup
+    [TestFlight takeOff:@"YOUR-APP-TOKEN-GOES-HERE"];
+*/
+    
+    // CocoaLumberjack setup
+//    [DDLog addLogger:[TestFlightLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    
+    // SETUP Colors for CocoaLumberjack Dlogs... Now you can even change the color of a certain level
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor greenColor] backgroundColor:nil forFlag:LOG_FLAG_INFO];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor orangeColor] backgroundColor:nil forFlag:LOG_FLAG_WARN];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor redColor] backgroundColor:nil forFlag:LOG_FLAG_ERROR];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor whiteColor] backgroundColor:nil forFlag:LOG_LEVEL_VERBOSE];
+
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // setup CocoaLumberJack & other frameworks such as TestFlight, etc...
+    [self setupDevelopmentFramework];
+    
+    
     return YES;
 }
 							
