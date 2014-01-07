@@ -6,16 +6,16 @@
 //  Copyright (c) 2013 David Oliver Barreto Rodríguez. All rights reserved.
 //
 
-#import "OBRFastFavsDetailImageVC.h"
+#import "DOBRFastFavsDetailImageVC.h"
 
-@interface OBRFastFavsDetailImageVC ()
+@interface DOBRFastFavsDetailImageVC ()
 @property (weak, nonatomic) IBOutlet UIImageView *favImageView;
 
 - (IBAction)close:(UIBarButtonItem *)sender;
 
 @end
 
-@implementation OBRFastFavsDetailImageVC
+@implementation DOBRFastFavsDetailImageVC
 
 
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FFFUICollectionViewFastFavCell : UICollectionViewCell
+@interface DOBRFastFavCollectionViewCell : UICollectionViewCell
 @property (strong, nonatomic) IBOutlet UIView *fastfavcellView;
 @property (strong, nonatomic) IBOutlet UILabel *fastfavcellFullNameLabel;
 

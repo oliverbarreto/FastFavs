@@ -7,7 +7,7 @@
         <!--Content VC for SlideOut Menu-->
         <scene sceneID="gfV-Dm-FEM">
             <objects>
-                <collectionViewController autoresizesArchivedViewToFullSize="NO" id="4OX-Dq-DRS" userLabel="Content VC for SlideOut Menu" customClass="OBRFastFavsMainDetailCollectionViewVC" sceneMemberID="viewController">
+                <collectionViewController autoresizesArchivedViewToFullSize="NO" id="4OX-Dq-DRS" userLabel="Content VC for SlideOut Menu" customClass="DOBRFastFavsMainDetailCollectionViewVC" sceneMemberID="viewController">
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="bpS-oJ-d2N">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,7 +19,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FastFavCell" id="25D-kJ-atv" customClass="FFFUICollectionViewFastFavCell">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FastFavCell" id="25D-kJ-atv" customClass="DOBRFastFavCollectionViewCell">
                                 <rect key="frame" x="0.0" y="83" width="127" height="179"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -61,7 +61,7 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FastFavSectionHeader" id="Rr6-90-9ca" customClass="FFFFastFavSectionHeader">
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FastFavSectionHeader" id="Rr6-90-9ca" customClass="DOBRFastFavSectionHeader">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
@@ -96,7 +96,7 @@
         <!--Fast Favs Detail ImageVC-->
         <scene sceneID="WjZ-Mj-vWY">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="plv-7w-Vdu" customClass="OBRFastFavsDetailImageVC" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="plv-7w-Vdu" customClass="DOBRFastFavsDetailImageVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RGK-CU-Rre"/>
                         <viewControllerLayoutGuide type="bottom" id="qp7-6W-Mma"/>

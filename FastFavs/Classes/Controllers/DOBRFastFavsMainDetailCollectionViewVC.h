@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OBRFastFavsMainDetailCollectionViewVC : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+@interface DOBRFastFavsMainDetailCollectionViewVC : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 David Oliver Barreto Rodríguez. All rights reserved.
 //
 
-#import "FFFUICollectionViewFastFavCell.h"
+#import "DOBRFastFavCollectionViewCell.h"
 
-@implementation FFFUICollectionViewFastFavCell
+@implementation DOBRFastFavCollectionViewCell
 
 - (id)initWithFrame:(CGRect)frame
 {

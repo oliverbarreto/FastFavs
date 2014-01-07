@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OBRFastFavsDetailImageVC : UIViewController
+@interface DOBRFastFavsDetailImageVC : UIViewController
 @property (nonatomic, weak) NSString * favImageName;
 @end

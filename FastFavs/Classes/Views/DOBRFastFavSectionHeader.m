@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 David Oliver Barreto Rodríguez. All rights reserved.
 //
 
-#import "FFFFastFavSectionHeader.h"
+#import "DOBRFastFavSectionHeader.h"
 
-@implementation FFFFastFavSectionHeader
+@implementation DOBRFastFavSectionHeader
 
 - (id)initWithFrame:(CGRect)frame
 {

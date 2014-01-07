@@ -6,12 +6,12 @@
 //  Copyright (c) 2013 David Oliver Barreto Rodríguez. All rights reserved.
 //
 
-#import "OBRFastFavsMainDetailCollectionViewVC.h"
-#import "OBRFastFavsDetailImageVC.h"
-#import "FFFUICollectionViewFastFavCell.h"
+#import "DOBRFastFavsMainDetailCollectionViewVC.h"
+#import "DOBRFastFavsDetailImageVC.h"
+#import "DOBRFastFavCollectionViewCell.h"
 #import "UIImage+RoundedCorner.h"
 #import "UIImage+Resize.h"
-#import "FFFFastFavSectionHeader.h"
+#import "DOBRFastFavSectionHeader.h"
 
 
 #pragma mark Details to Polish
@@ -21,7 +21,7 @@ TODO("add time and date to header section");
 
 
 
-@interface OBRFastFavsMainDetailCollectionViewVC ()
+@interface DOBRFastFavsMainDetailCollectionViewVC ()
 
 // Model for FastFavs
 @property (nonatomic, strong) NSMutableArray * favsGroups;
@@ -32,7 +32,7 @@ TODO("add time and date to header section");
 @property BOOL shouldBeHidingStatusBar;
 @end
 
-@implementation OBRFastFavsMainDetailCollectionViewVC
+@implementation DOBRFastFavsMainDetailCollectionViewVC
 
 
 
@@ -177,7 +177,7 @@ TODO("add time and date to header section");
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *identifier = @"FastFavCell";
     
-    FFFUICollectionViewFastFavCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    DOBRFastFavCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     
    
     // Add Rounded Image 50%
@@ -225,7 +225,7 @@ TODO("add time and date to header section");
 
 -(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
-    FFFFastFavSectionHeader * fastfavcellSetionHeader = nil;
+    DOBRFastFavSectionHeader * fastfavcellSetionHeader = nil;
     
     if ([kind isEqual:UICollectionElementKindSectionHeader])
     {
@@ -259,7 +259,7 @@ TODO("add time and date to header section");
 
         
         NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
-        OBRFastFavsDetailImageVC *destViewController = segue.destinationViewController;
+        DOBRFastFavsDetailImageVC *destViewController = segue.destinationViewController;
         
         // Select the first item for ingle selection
         NSIndexPath *indexPath = [indexPaths objectAtIndex:0];

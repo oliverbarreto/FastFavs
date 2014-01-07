@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FFFFastFavSectionHeader : UICollectionReusableView
+@interface DOBRFastFavSectionHeader : UICollectionReusableView
 @property (weak, nonatomic) IBOutlet UILabel *fastfavSectionHeaderLabel;
 
 @end
