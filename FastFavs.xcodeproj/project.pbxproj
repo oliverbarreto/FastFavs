@@ -15,6 +15,21 @@
 		A7BE9745187C266400F19794 /* DOBRFastFavSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE9742187C266400F19794 /* DOBRFastFavSectionHeader.m */; };
 		A7BE9746187C266400F19794 /* DOBRFastFavCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE9744187C266400F19794 /* DOBRFastFavCollectionViewCell.m */; };
 		A7BE9749187C272100F19794 /* DOBRFastFavsDetailImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE9748187C272100F19794 /* DOBRFastFavsDetailImageVC.m */; };
+		A7BE9759187C2CBE00F19794 /* ARAL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE974A187C2CBE00F19794 /* ARAL.jpg */; };
+		A7BE975A187C2CBE00F19794 /* FernandoPerez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE974B187C2CBE00F19794 /* FernandoPerez.jpg */; };
+		A7BE975B187C2CBE00F19794 /* GaraAlom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE974C187C2CBE00F19794 /* GaraAlom.jpg */; };
+		A7BE975C187C2CBE00F19794 /* Heidi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE974D187C2CBE00F19794 /* Heidi.jpg */; };
+		A7BE975D187C2CBE00F19794 /* JavierHerrera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE974E187C2CBE00F19794 /* JavierHerrera.jpg */; };
+		A7BE975E187C2CBE00F19794 /* JJuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE974F187C2CBE00F19794 /* JJuan.jpg */; };
+		A7BE975F187C2CBE00F19794 /* MariaDuarte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9750187C2CBE00F19794 /* MariaDuarte.jpg */; };
+		A7BE9760187C2CBE00F19794 /* MiguelHerrera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9751187C2CBE00F19794 /* MiguelHerrera.jpg */; };
+		A7BE9761187C2CBE00F19794 /* Mima.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9752187C2CBE00F19794 /* Mima.jpeg */; };
+		A7BE9762187C2CBE00F19794 /* Oliver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9753187C2CBE00F19794 /* Oliver.jpg */; };
+		A7BE9763187C2CBE00F19794 /* OliverCarnet.png in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9754187C2CBE00F19794 /* OliverCarnet.png */; };
+		A7BE9764187C2CBE00F19794 /* OliverInnovation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9755187C2CBE00F19794 /* OliverInnovation.jpg */; };
+		A7BE9765187C2CBE00F19794 /* Raimon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9756187C2CBE00F19794 /* Raimon.jpg */; };
+		A7BE9766187C2CBE00F19794 /* RosaMary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9757187C2CBE00F19794 /* RosaMary.jpg */; };
+		A7BE9767187C2CBE00F19794 /* SoniaAcosta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BE9758187C2CBE00F19794 /* SoniaAcosta.jpg */; };
 		A7EFEE31187BE2AB00518B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFEE30187BE2AB00518B76 /* Foundation.framework */; };
 		A7EFEE33187BE2AB00518B76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFEE32187BE2AB00518B76 /* CoreGraphics.framework */; };
 		A7EFEE35187BE2AB00518B76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFEE34187BE2AB00518B76 /* UIKit.framework */; };
@@ -61,6 +76,21 @@
 		A7BE9744187C266400F19794 /* DOBRFastFavCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOBRFastFavCollectionViewCell.m; sourceTree = "<group>"; };
 		A7BE9747187C272100F19794 /* DOBRFastFavsDetailImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOBRFastFavsDetailImageVC.h; sourceTree = "<group>"; };
 		A7BE9748187C272100F19794 /* DOBRFastFavsDetailImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOBRFastFavsDetailImageVC.m; sourceTree = "<group>"; };
+		A7BE974A187C2CBE00F19794 /* ARAL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ARAL.jpg; sourceTree = "<group>"; };
+		A7BE974B187C2CBE00F19794 /* FernandoPerez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FernandoPerez.jpg; sourceTree = "<group>"; };
+		A7BE974C187C2CBE00F19794 /* GaraAlom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GaraAlom.jpg; sourceTree = "<group>"; };
+		A7BE974D187C2CBE00F19794 /* Heidi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Heidi.jpg; sourceTree = "<group>"; };
+		A7BE974E187C2CBE00F19794 /* JavierHerrera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JavierHerrera.jpg; sourceTree = "<group>"; };
+		A7BE974F187C2CBE00F19794 /* JJuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JJuan.jpg; sourceTree = "<group>"; };
+		A7BE9750187C2CBE00F19794 /* MariaDuarte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MariaDuarte.jpg; sourceTree = "<group>"; };
+		A7BE9751187C2CBE00F19794 /* MiguelHerrera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MiguelHerrera.jpg; sourceTree = "<group>"; };
+		A7BE9752187C2CBE00F19794 /* Mima.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mima.jpeg; sourceTree = "<group>"; };
+		A7BE9753187C2CBE00F19794 /* Oliver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oliver.jpg; sourceTree = "<group>"; };
+		A7BE9754187C2CBE00F19794 /* OliverCarnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OliverCarnet.png; sourceTree = "<group>"; };
+		A7BE9755187C2CBE00F19794 /* OliverInnovation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OliverInnovation.jpg; sourceTree = "<group>"; };
+		A7BE9756187C2CBE00F19794 /* Raimon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Raimon.jpg; sourceTree = "<group>"; };
+		A7BE9757187C2CBE00F19794 /* RosaMary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RosaMary.jpg; sourceTree = "<group>"; };
+		A7BE9758187C2CBE00F19794 /* SoniaAcosta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SoniaAcosta.jpg; sourceTree = "<group>"; };
 		A7EFEE2D187BE2AB00518B76 /* FastFavs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastFavs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EFEE30187BE2AB00518B76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7EFEE32187BE2AB00518B76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -283,6 +313,21 @@
 		A7EFEE71187BE45500518B76 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A7BE974A187C2CBE00F19794 /* ARAL.jpg */,
+				A7BE974B187C2CBE00F19794 /* FernandoPerez.jpg */,
+				A7BE974C187C2CBE00F19794 /* GaraAlom.jpg */,
+				A7BE974D187C2CBE00F19794 /* Heidi.jpg */,
+				A7BE974E187C2CBE00F19794 /* JavierHerrera.jpg */,
+				A7BE974F187C2CBE00F19794 /* JJuan.jpg */,
+				A7BE9750187C2CBE00F19794 /* MariaDuarte.jpg */,
+				A7BE9751187C2CBE00F19794 /* MiguelHerrera.jpg */,
+				A7BE9752187C2CBE00F19794 /* Mima.jpeg */,
+				A7BE9753187C2CBE00F19794 /* Oliver.jpg */,
+				A7BE9754187C2CBE00F19794 /* OliverCarnet.png */,
+				A7BE9755187C2CBE00F19794 /* OliverInnovation.jpg */,
+				A7BE9756187C2CBE00F19794 /* Raimon.jpg */,
+				A7BE9757187C2CBE00F19794 /* RosaMary.jpg */,
+				A7BE9758187C2CBE00F19794 /* SoniaAcosta.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -406,13 +451,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BE975A187C2CBE00F19794 /* FernandoPerez.jpg in Resources */,
+				A7BE9763187C2CBE00F19794 /* OliverCarnet.png in Resources */,
+				A7BE9761187C2CBE00F19794 /* Mima.jpeg in Resources */,
+				A7BE9765187C2CBE00F19794 /* Raimon.jpg in Resources */,
+				A7BE975B187C2CBE00F19794 /* GaraAlom.jpg in Resources */,
 				A7EFEE79187BE53100518B76 /* .gitattributes in Resources */,
 				A7EFEE47187BE2AB00518B76 /* Main_iPad.storyboard in Resources */,
+				A7BE975E187C2CBE00F19794 /* JJuan.jpg in Resources */,
+				A7BE9762187C2CBE00F19794 /* Oliver.jpg in Resources */,
+				A7BE9767187C2CBE00F19794 /* SoniaAcosta.jpg in Resources */,
+				A7BE9764187C2CBE00F19794 /* OliverInnovation.jpg in Resources */,
+				A7BE975F187C2CBE00F19794 /* MariaDuarte.jpg in Resources */,
 				A7EFEE4C187BE2AB00518B76 /* Images.xcassets in Resources */,
 				A7EFEE44187BE2AB00518B76 /* Main_iPhone.storyboard in Resources */,
+				A7BE9760187C2CBE00F19794 /* MiguelHerrera.jpg in Resources */,
 				A7EFEE7A187BE53100518B76 /* .gitignore in Resources */,
 				A7EFEE7C187BE65D00518B76 /* Podfile in Resources */,
+				A7BE9766187C2CBE00F19794 /* RosaMary.jpg in Resources */,
 				A7EFEE3B187BE2AB00518B76 /* InfoPlist.strings in Resources */,
+				A7BE9759187C2CBE00F19794 /* ARAL.jpg in Resources */,
+				A7BE975D187C2CBE00F19794 /* JavierHerrera.jpg in Resources */,
+				A7BE975C187C2CBE00F19794 /* Heidi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
