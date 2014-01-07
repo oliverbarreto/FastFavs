@@ -15,17 +15,18 @@
 
 -(void)setupDevelopmentFramework
 {
-    // With these 2 lines of code we send logs to Xcode console (DDTTYLogger) and Testfligh servers (TestFlightLogger)
+    // Send logs to Xcode console (DDTTYLogger) and Testfligh servers (TestFlightLogger)
 
-/*
+
     // TestFlight setup
-    [TestFlight takeOff:@"YOUR-APP-TOKEN-GOES-HERE"];
-*/
+//    [TestFlight takeOff:@"YOUR-APP-TOKEN-GOES-HERE"];
     
     // CocoaLumberjack setup
 //    [DDLog addLogger:[TestFlightLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     
+    // DEBUG MODE: ddLogLevel = LOG_LEVEL_VERBOSE & RELEASE MODE: ddLogLevel = LOG_LEVEL_WARN in prefix.pch
+
     // SETUP Colors for CocoaLumberjack Dlogs... Now you can even change the color of a certain level
     [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
     [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor greenColor] backgroundColor:nil forFlag:LOG_FLAG_INFO];
@@ -41,7 +42,6 @@
     
     // setup CocoaLumberJack & other frameworks such as TestFlight, etc...
     [self setupDevelopmentFramework];
-    
     
     return YES;
 }
